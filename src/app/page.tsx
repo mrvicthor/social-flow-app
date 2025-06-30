@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Features from "@/components/features";
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
@@ -11,6 +12,7 @@ export default function Home() {
       <Inspiration />
       <Features />
       <Pricing />
+      <About />
     </div>
   );
 }
