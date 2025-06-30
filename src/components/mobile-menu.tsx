@@ -12,7 +12,7 @@ const MobileMenu = ({ handleMenu, showMenu }: MobileMenuProps) => {
       {showMenu ? (
         <motion.section
           initial={{ height: 0 }}
-          animate={{ height: "25vh" }}
+          animate={{ height: "30vh" }}
           exit={{
             height: 0,
             transition: { delay: 0.7, duration: 0.3 },
@@ -24,7 +24,7 @@ const MobileMenu = ({ handleMenu, showMenu }: MobileMenuProps) => {
             initial="closed"
             animate="open"
             exit="closed"
-            className=" flex gap-6 py-16 px-4 flex-col"
+            className=" flex gap-6 py-12 px-4 flex-col"
           >
             <motion.li
               className="capitalize text-white cursor-pointer"
