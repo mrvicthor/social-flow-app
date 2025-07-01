@@ -1,6 +1,7 @@
 import About from "@/components/about";
 import EarlyAccessCTA from "@/components/early-access-cta";
 import Features from "@/components/features";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
 import Inspiration from "@/components/inspiration";
@@ -15,6 +16,7 @@ export default function Home() {
       <Pricing />
       <About />
       <EarlyAccessCTA />
+      <Footer />
     </div>
   );
 }
